@@ -21,4 +21,7 @@ public class StudentController {
     public void updateStudent(int id, String name) {
         System.out.println("Actualizando estudiante ID: " + id + " - Nombre: " + name);
     }
+    public void listStudentsByName(String name) {
+        System.out.println("Buscando estudiante por nombre: " + name);
+    }
 }
